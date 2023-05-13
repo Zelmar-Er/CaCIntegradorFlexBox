@@ -1,2 +1,2 @@
-./final_front_2023.jpg
-./css/mobil.css
+final_front_2023.jpg
+css/mobil.css
