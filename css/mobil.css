@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+@media (max-width: 667px){
+    .titleSpan{
+        font-size: .8rem;
+    }
+    /* HEADER */
+    .navContainer{
+        width: auto;
+        flex-direction: column;
+        align-items: center
+    }
+    .logo{
+        flex-direction: column;
+        align-items: center;
+    }
+    /* nav */
+    nav ul{
+        list-style: none;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav li{
+        margin: .5rem auto;
+    }
+    /* la conferencia */
+    .conferenciaContent {
+        align-items: center;
+        margin: auto;
+    }
+    .conferenciaContent h1{
+        margin: 1.5rem auto;
+    }
+    .conferenciaContent p{
+        width: auto;
+        margin: 1rem 1rem 2rem 1rem;
+        text-align: left;
+    }
+    .conferencia-btns {
+        margin: 1rem;
+    }
+    /* MAIN */
+    /* los oradores */
+    .cardContainer {
+    width: auto;
+    flex-direction: column;
+    justify-content: center;
+    }
+    /* card */
+    .card{
+        flex-direction: column;
+        width: 95%;
+        margin-bottom: 1rem;
+    }
+    .cardContent p {
+        font-size: 1rem;
+    }
+    /* lugar y fecha */
+    #lugarFecha{
+        flex-direction: column-reverse;
+    }
+    .lugarFechaText{
+        padding: 1.5rem
+    }
+    .lugarFechaText p{
+        font-size: 1rem;
+    }
+    .btn-conoceMas {
+        font-size: .9rem;
+    }
+    .honolulu{
+        border: none;
+    }
+    .honolulu, .lugarFechaText{
+        width: auto;
+    }
+    /* conviertete en orador */
+    #convierteteOrador{
+        width: 95%;
+    }
+    .anotate{
+        font-size: 1rem;
+    }
+    /* FOOTER */
+    .footer__menu{
+        height: auto;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 0.5rem;
+    }
+    .footer__menu a{
+        margin: .5rem 0;
+    }
+    .footer__menu a:last-child {
+        margin-bottom: 1.5rem;
+    }
+}
+@media (orientation: landscape) and (max-width: 668px){
+        .titleSpan{
+            font-size: .8rem;
+        }
+        /* HEADER */
+        .navContainer{
+            width: auto;
+            flex-direction: column;
+            align-items: center
+        }
+        .logo{
+            flex-direction: column;
+            align-items: center;
+        }
+         /* nav */
+        nav ul{
+            list-style: none;
+            flex-direction: column;
+            align-items: center;
+        }
+        nav li{
+            margin: .5rem auto;
+        }
+        /* la conferencia */
+        .conferenciaContent {
+            margin-top: 1rem;
+            padding-bottom: 1rem;
+            align-items: center;
+        }
+        .conferenciaContent h1{
+            margin-bottom: 1.5rem;
+            margin-right: 0;
+        }
+        .conferenciaContent p{
+            margin-right: 0;
+            text-align: left;
+        }
+        .conferencia-btns{
+            margin-right: 0;
+        }
+        /* los oradores */
+        .cardContainer{
+            width: auto;
+        }
+        /* lugar y fecha */
+        #lugarFecha{
+            flex-direction: column-reverse;
+        }
+        .lugarFechaText {
+            padding: 1rem;
+        }
+        .lugarFechaText p{
+            font-size: 1rem;
+        }
+        .btn-conoceMas {
+            font-size: .9rem;
+        }
+        .honolulu{
+            border: none;
+            background-position: bottom;
+        }
+        .honolulu, .lugarFechaText{
+            width: auto;
+        }
+        /* conviertete en orador */
+        .anotate{
+            font-size: 1rem;
+        }
+            /* FOOTER */
+        .footer__menu{
+            height: auto;
+            align-items: center;
+            flex-direction: column;
+            padding-top: 0.5rem;
+        }
+        .footer__menu a{
+            margin: .5rem 0;
+        }
+        .footer__menu a:last-child {
+            margin-bottom: 1.5rem;
+        }
+}
